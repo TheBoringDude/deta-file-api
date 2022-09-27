@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "deta-file-api"
+version = "0.1.0"
+description = ""
+authors = ["TheBoringDude <iamcoderx@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.85.0"
+deta = "^1.1.0"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.8.0"
+flake8 = "^5.0.4"
+mypy = "^0.971"
+pylint = "^2.15.3"
+uvicorn = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
