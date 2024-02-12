@@ -8,7 +8,7 @@ authors = ["TheBoringDude <iamcoderx@gmail.com>"]
 python = "^3.10"
 fastapi = "^0.85.0"
 deta = "^1.1.0"
-python-multipart = "^0.0.5"
+python-multipart = "^0.0.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
